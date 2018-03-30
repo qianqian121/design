@@ -57,3 +57,8 @@ They are generally used as a global instance, why is that so bad? Because you hi
 They violate the single responsibility principle: by virtue of the fact that they control their own creation and lifecycle.
 They inherently cause code to be tightly coupled. This makes faking them out under test rather difficult in many cases.
 They carry state around for the lifetime of the application. Another hit to testing since you can end up with a situation where tests need to be ordered which is a big no no for unit tests. Why? Because each unit test should be independent from the other.*/
+
+
+/*
+https://vivekcek.wordpress.com/2013/03/17/simple-factory-vs-factory-method-vs-abstract-factory-by-example/
+*/
